@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.ub.pis2016.pis12.robotrun.WinActivity"
+    android:id="@+id/layoutWin">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageWin"
+        android:src="@drawable/youwin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:id="@+id/button_WINContinuar"
+        android:layout_below="@+id/linearLayoutStarsL1"
+        android:layout_toRightOf="@+id/linearLayoutStarsL1"
+        android:layout_toEndOf="@+id/linearLayoutStarsL1"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/continuewin" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_WINReiniciar"
+        android:layout_alignTop="@+id/button_WINContinuar"
+        android:layout_toStartOf="@+id/linearLayoutStarsL1"
+        android:layout_marginLeft="60dp"
+        android:layout_toLeftOf="@+id/linearLayoutStarsL1"
+        android:background="@drawable/restarttrans" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageWin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/linearLayoutStarsL1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageStar1"
+            android:layout_toLeftOf="@+id/imageStar2"
+            android:layout_below="@+id/imageWin"
+            android:background="@drawable/staremptyb"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageStar2"
+            android:layout_below="@+id/imageWin"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/staremptyb" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageStar3"
+            android:background="@drawable/staremptyb"
+            android:layout_below="@+id/imageWin"
+            android:layout_toRightOf="@+id/imageStar2"
+            android:layout_toEndOf="@+id/imageStar2"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_below="@+id/linearLayoutStarsL1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/linearLayoutCoinsWin">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewCoinsWin"
+            android:src="@drawable/coin"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewCoinsWin"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

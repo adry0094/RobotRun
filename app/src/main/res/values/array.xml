@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="idioms">
+        <item>@string/en_SettingMenu</item>
+        <item>@string/es_SettingMenu</item>
+        <item>@string/cat_SettingMenu</item>
+    </string-array>
+</resources>

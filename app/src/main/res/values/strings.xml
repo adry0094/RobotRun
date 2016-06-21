@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Robot Run</string>
+    <string name="backButton">Back</string>
+    <string name="starsApp">&#160;stars</string>
+    <string name="levelApp">&#160;level</string>
+    <string name="firstApp">first</string>
+    <string name="secondApp">second</string>
+    <string name="coinsApp">&#160;coins</string>
+
+    <!--String MainActivity-->
+    <string name="text_MainActivity" translatable="false">Robot Run</string>
+    <string name="shopButton_MainActivity">Shop</string>
+    <string name="playButton_MainActivity" translatable="false"></string>
+    <string name="settingsButton_MainActivity">Settings</string>
+
+    <!--Strings LevelMenuActivity-->
+    <string name="backButton_LevelMenu">Back</string>
+    <string name="level1Button_LevelMenu">Level\n1</string>
+    <string name="contadorEstrella_LevelMenu" translatable="false">0/3</string>
+    <string name="level2Button_LevelMenu">Level\n2</string>
+    <string name="level3Button_LevelMenu">Level\n3</string>
+    <string name="toast_LevelMenu">You need to complete the&#160;</string>
+
+    <!--Strings WorldMenuActivity-->
+    <!--  &#160; es un espacio en blanco -->
+    <string name="backButton_WorldMenu">Back</string>
+    <string name="leftButton_WorldMenu">Left</string>
+    <string name="rightButton_WorldMenu">Right</string>
+    <string name="worldEarth_WorldMenu">Earth</string>
+    <string name="worldMoon_WorldMenu">Moon</string>
+    <string name="completed_WorldMenu">Completed</string>
+    <string name="completedLevels">You need all previous levels completed and&#160;</string>
+
+
+    <!--Strings SettingsMenuActivity-->
+    <string name="idiom_SettingMenu">Language:</string>
+    <string name="sound_SettingMenu">Sound:</string>
+    <string name="developed_SettingMenu">Developed by:&#160;</string>
+    <string name="names_SettingMenu" translatable="false">Adrian Pardos, Carles Planella, Michael Vanegas, Carles Magallon</string>
+    <string name="es_SettingMenu">Spanish</string>
+    <string name="en_SettingMenu">English</string>
+    <string name="cat_SettingMenu">Catalan</string>
+    <string name="mute">Mute</string>
+    <string name="music">Music</string>
+
+
+    <!--Strings ShopMenuActivity-->
+    <string name="robot_ShopMenu">Robots</string>
+    <string name="itemSelected_ShopMenu">Selected</string>
+    <string name="robotLocked_ShopMenu">Robot Locked:&#160;</string>
+    <string name="enoughCoins_ShopMenu">You don\'t have enough coins, you need:&#160;</string>
+    <string name="purchaseSucc_ShopMenu">Purchase successful!</string>
+    <string name="robotSelected_ShopMenu">Robot selected:</string>
+
+
+    <!--Strings GameActivity-->
+    <string name="pause_text">Pause</string>
+    <string name="gameover_text">GAME OVER</string>
+    <string name="win_text">YOU WIN !</string>
+
+    <!--Strings GameOverActivity-->
+    <string name="tryagain_text">You failed!\nTry again</string>
+
+    <!--Descripciones-->
+    <string name="desc_robot1">GOLM is the very first robot created to explore different worlds
+    in order to find his missing robot friends.</string>
+    <string name="desc_robot2">BUM9 aka Trasher is a robot designed to find and recycle trash,
+    his unexplainable density allows him to fall into the ground faster than any other.</string>
+    <string name="desc_robot3">BA23 is the shyest of it\'s kind. The fact that he can not interact
+    with other robots makes him unique and powerfull in midair jumps.</string>
+    <string name="desc_robot4">IronR was ment to be the first human piloted robot. The failure
+    of this proyect, created an autonomous robot with incredible abilities.</string>
+    <string name="desc_robot5">Master is the most warrior robot , its origin is purely spartan . There will be no obstacle to stop it.</string>
+    <string name="desc_robot6">Rock, the firmest of all , due to their large muscles, can make jumps without pawning effort.</string>
+    <string name="desc_robot7">Sp-Der the arachnid robot, climb everywhere with their big paws . It is the envy of other robots .</string>
+
+
+</resources>
